@@ -25,8 +25,7 @@ void SumOddPos(int[] array)
     if (i % 2 == 1)
       Sum += array[i];
   }
-  Console.WriteLine();
-  Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях в массиве равно - {Sum}!");
+  Console.WriteLine($"\nСумма элементов, стоящих на нечётных позициях в массиве равно - {Sum}!");
 }
 
 void PrintArray(int[] array)
