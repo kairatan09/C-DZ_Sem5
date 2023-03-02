@@ -49,7 +49,6 @@ int[] Rand(int[] array)
   for (int i = 0; i < array.Length; i++)
   {
     int n = new Random().Next(0, array.Length - 1);
-    int MaxIndex = i;
     //int temp = array[i];
     //array[i] = array[n];
     //array[n] = temp;
